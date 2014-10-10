@@ -9,7 +9,6 @@ use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 
-
 class ClooderToolsExtension extends Extension
 {
 

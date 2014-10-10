@@ -42,6 +42,7 @@ class BitExtension extends \Twig_Extension
 
         return sprintf("%.2f", $bits / pow(1024, $factor)) . @$sz[$factor];
     }
+
     public function getName()
     {
         return 'clooder_bit';

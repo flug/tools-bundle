@@ -18,7 +18,8 @@ class DurationExtension extends \Twig_Extension
     public function convertScdToHrs($minutes, $format = "H:i:s")
     {
         $seconds = strtotime($minutes . " minutes") - time();
-        return gmdate( $format, $seconds);
+
+        return gmdate($format, $seconds);
     }
 
 
