@@ -1,0 +1,22 @@
+parameters:
+
+
+services:
+  clooder_tools.duration.extension:
+      class: Clooder\ToolsBundle\Twig\DurationExtension
+      tags:
+        - { name: twig.extension }
+      public: false
+      
+  clooder.locale.extension:
+      class: Clooder\ToolsBundle\Twig\LocaleExtension
+      tags:
+        - { name: twig.extension }
+      public: false
+  
+  clooder.bits.extension:
+      class: Clooder\ToolsBundle\Twig\BitExtension
+      tags:
+        - { name: twig.extension }
+      public: false
+
