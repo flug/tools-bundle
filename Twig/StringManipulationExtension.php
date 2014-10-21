@@ -1,6 +1,7 @@
 <?php
 
 namespace Clooder\ToolsBundle\Twig;
+
 class StringManipulationExtension extends \Twig_Extension {
 
     public function getFilters()
